@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="">
+        <Preference android:title="弹幕DuangDuang"
+            android:key="toggle"
+            android:summary="快去勾选打开我吧"/>
+        <Preference
+            android:key="notifi_list"
+            android:summary="点击右下方的悬浮球添加支持弹幕的应用程序吧"
+            android:title="白名单"/>
+        <Preference
+            android:key="xiaomi"
+            android:summary="点开瞧瞧呗"
+            android:title="小米手机如何使用我"/>
+        <Preference
+            android:title="CONTACT"
+            android:key="about_me"
+            android:summary="hcqeric@126.com"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
